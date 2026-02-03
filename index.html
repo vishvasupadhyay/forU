@@ -77,8 +77,10 @@ button:hover { transform: scale(1.05); }
   left: -200px;
   width: 140px;
   animation: walkMouse 25s linear infinite;
+  transition: left 2s ease, bottom 2s ease;
   z-index: 5;
 }
+
 
 @keyframes walkMouse {
   0% { left: -200px; }
